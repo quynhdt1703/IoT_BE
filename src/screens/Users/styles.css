@@ -1,0 +1,165 @@
+.all {
+  position: relative;
+}
+
+.table-user {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 100px;
+}
+
+.button-add {
+  background-color: rgba(41,121,255, 0.9);
+  padding: 5px 10px;
+  color: #FFF;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: auto;
+  flex-shrink: inherit;
+  width: 100px;
+  margin-right: 200px;
+  cursor: pointer;
+}
+
+.button-add:hover {
+  background-color: rgba(41,121,255, 1);
+}
+
+.table {
+  min-width: 1200px;
+  max-width: 1300px;
+  background-color: "white";
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  min-width: 1200;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.tdIcon {
+  position: relative;
+}
+
+.icon-dot {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.popup {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 10;
+  right: 40;
+  z-index: 2;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+li:hover {
+  background-color: #E0E0E0;
+}
+
+.pop-up-add {
+  background-color: #000;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  flex-direction: row;
+  align-items: center;
+   display: flex;
+}
+
+
+.add-form {
+  background-color: #fff;
+  height: 500px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.closeAdd {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5000px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  cursor: pointer;
+  color: #FFF;
+  
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  border: 1px solid;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
